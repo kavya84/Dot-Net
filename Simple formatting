@@ -1,0 +1,30 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Simple_Formatting.Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        ..auto-style1 {
+            font-family: "Courier New",Courier,monospace;
+        }
+        .auto-style2{
+            color:#CC3300;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            Text formatting plus other stuff <br  />
+            <br />
+            In this line of text I will demonstrate to change the <span class="auto-style1">font</span> and <span class="auto-style2">color</span> <br />
+            <br />
+            Click here to go to <a href="https://cnn.com/">CNN</a><br />
+            <br />
+        </div>
+        <asp:Image ID="Image1" runat="server" Height="111px" ImageUrl="~\Images\Screenshot 2024-02-05 at 6.29.17 PM.png\ " Width="112px"></asp:Image>
+    </form>
+</body>
+</html>
